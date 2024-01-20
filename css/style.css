@@ -2502,7 +2502,41 @@
       line-height: normal;
       text-align: center;
    }
+}
+
+@media screen and (max-width: 600px) {
+   .hit-button {
+      display: flex;
+      padding: 12px 24px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 15px auto;
+      background: #000;
+      font-family: 'Monserrat';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #FFF;
+   }
+}
 
 
-
+@media screen and (max-width: 440px) {
+   .hit-button {
+      display: flex;
+      padding: 12px 24px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 15px auto;
+      background: #000;
+      font-family: 'Monserrat';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #FFF;
+   }
 }
